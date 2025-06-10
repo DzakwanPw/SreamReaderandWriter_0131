@@ -10,8 +10,7 @@ int main(){
     //menunjuk ke sebuah nama file
     outfile.open("contohfile.txt");
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
-
-
+    // unlimited loop untuk menulis
     while (true) {
         cout << "_ ";
         // mendapatkan setiap karakter dalam satu baris
@@ -23,8 +22,8 @@ int main(){
     }
     //selesai dalam menulis sekarang tutup filenya
     outfile.close();
-
-
+    // membuka file dalam mode membaca
+    ifstream infile;
     //menunjuk ke sebuah file
     infile.open("contohfile.txt");
     cout << endl << ">= Membuka dan membaca file " << endl;
