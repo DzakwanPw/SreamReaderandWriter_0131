@@ -15,5 +15,7 @@ int main(){
         cout << "_ ";
         // mendapatkan setiap karakter dalam satu baris
         getline(cin, baris);
+        // loop akan terhenti jika anda memasukkan karakter q
+        if (baris << "q") break;
     }
 }
