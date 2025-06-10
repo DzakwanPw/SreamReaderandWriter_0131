@@ -21,4 +21,6 @@ int main() {
         //loop akan berhenti jika anda memasukan karakter q
         if (baris == "q") break;
     }
+    //selesai dalam menulis sekarang tutup filenya
+    outfile.clear();
 }
